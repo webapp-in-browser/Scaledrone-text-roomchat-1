@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.scaledrone.com/scaledrone.min.js"
+    ></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>P2P Text Chat - 2</h1>
+       <p>WebRTC & Scaledrone</p>
+
+     
+      <!--h2>Номер комнаты:</h2>
+      <input type="text" id = "input1"><br><hr>
+      <h2>Имя:</h2>
+      <input type="text" id = "input2"><br><hr>
+  
+  
+      <button id = "button1" onclick="button1()">ok</button-->
+
+
+
+
+    </header>
+    <section>
+    <div class="container">
+      <!--div class="remoteVideo">
+        <div class="header-title">Друг</div>
+        <video id="remoteVideo" height="50px" autoplay></video>
+      </div>
+      <div class="localVideo">
+        <div class="header-title">Я</div>
+        <video id="localVideo" autoplay muted></video>
+      </div-->
+      <div class="notificationsBox">
+        <div class="header-title">Кто в чате?/Who's on the chat?</div>
+        <textarea readonly id="notificationsBox"></textarea>
+      </div>
+      <div class="chatBox">
+        <div class="header-title">Окно чата/Chat window</div>
+        <textarea readonly id="chatBox"></textarea>
+        <textarea
+          type="text"
+          id="chat_text_input"
+          placeholder="Введите сообщение...<hr>Enter your message..."
+        > </textarea>  <button id="sendMsgBtn" onclick="sendChatMessage()">Отправить сообщение<hr>send a message</button>
+      </div>
+    </div>
+   
+   </section>
+   <footer>
+  <!--   Для шифрования текстов:
+     
+      <iframe src="https://andrey-berlin.github.io/x-or_1/" frameborder="0">
+
+
+
+
+
+
+   </iframe><!--br>Copyright:<br>https://andrey-berlin.github.io/<br>&#9997;<br>https://t.me/Berlin_Andrey<br-->
+
+
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

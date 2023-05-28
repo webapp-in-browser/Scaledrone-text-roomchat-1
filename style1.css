@@ -1,0 +1,36 @@
+body {
+
+text-align: center;
+
+
+}
+
+
+textarea {
+
+height: 50%;
+width: 50%;
+font-size:30px ;
+margin: 5%;
+padding: 5%;
+
+}
+
+button {
+
+font-size:30px ;
+height: 50%;
+width: 50%;
+
+
+}
+
+div {
+
+    font-size:30px ;
+    margin: 5%;
+    padding: 5%;
+
+
+}
+

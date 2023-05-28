@@ -1,0 +1,102 @@
+header {
+  
+  text-align: center;
+  background:#d7e3bd;
+  
+}
+
+p {
+  
+  /* text-align: center;
+   color: #125e59;8*/
+   text-shadow: 1px 1px 2px #374e4f, 0 0 25px #0e353b, 0 0 5px #01131c;
+ 
+ }
+
+section {
+  background:#d8d7d7;
+}
+
+.container {
+ /* height: 100%;*/
+  /*display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 4fr 2fr 1fr 1fr;
+  grid-template-areas:
+    "r l"
+    "r n"
+    "c c";
+  grid-gap: 3px;*/
+padding:0 0 0 0 ;
+margin:0 5% 0 5% ;
+
+
+}
+
+.remoteVideo {
+  grid-area: r;
+}
+#remoteVideo {
+  max-height: 750px;
+}
+.localVideo {
+  grid-area: l;
+}
+
+#notificationsBox {
+  /*background-color: red;
+  grid-area: n;*/
+  font-size: 12px;
+  padding: 2% 0% 0 5%;
+  margin:0% 0% 2% 0% ;
+  width: 95%;
+  height: 50px;
+}
+#chatBox {
+  /*background-color:#b8f1ff;
+  grid-area: c;*/
+  
+  font-size: 12px;
+  padding: 2% 0% 0 5%;
+  margin: 0% 0% 2% 0%;
+  width: 95%;
+  height: 100px;
+}
+/*textarea {
+  width: 100%;
+  height: 300px;
+}*/
+video {
+  width: 100%;
+  height: auto;
+}
+input, textarea {
+  font-size: 12px;
+  padding: 2% 0% 0 5%;
+  margin: 0% 0% 2% 0%;
+  width: 95%;
+  height: 100px;
+}
+
+.header-title {
+  background-color:#d7e3bd;
+  color:#313131;
+  padding: 10px;
+}
+
+button {
+  margin:0% 0% 2% 0% ;
+  width: 100%;
+  height: 50px;
+  
+  
+}
+
+footer {
+  color:rgb(251, 212, 106);
+  background:#034e4b;
+  text-align: center;
+  background-image: linear-gradient(#045d6d, #00ffea, rgb(5, 68, 104));
+  font-size: 18px;
+  
+}
